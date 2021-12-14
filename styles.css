@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation{
+    background-color: #6365A2;
+    margin: auto;
+    width: 80%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.message-area{
+    background-color: #ffffff;
+    margin: auto;
+    width: 80%;
+}
+
+.message-contents{
+    padding-left: 20px;
+}
+
+.userprofile{
+    background-color: #f8f3fe;
+    margin: auto;
+    width: 80%;
+
+}
+
+.profile-contents{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button-section{
+    background-color: #ffffff;
+    margin: auto;
+    width: 80%;
+}
+
+.seemore{
+    padding: 20px;
+}
+
+.buttons{
+    padding-left: 20px;
+}
+
+.button1{
+    border: solid #6365A2 2px;
+    background-color: #6365A2;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.button2{
+    border: solid #6365A2 2px;
+    background-color: white;
+    padding: 10px;
+    color: #6365A2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #f3f0f0;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.footer-text{
+    color: grey;
+    font-size: 12px;
+    padding: 5px 20px 20px 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
